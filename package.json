@@ -1,0 +1,17 @@
+{
+  "name": "brads-boilerplate-theme",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "tailwindcss -i ./src/index.css -o ./build/index.css --minify",
+    "start": "tailwindcss -i ./src/index.css -o ./build/index.css --watch --minify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
+    "tailwindcss": "^3.4.0"
+  }
+}
