@@ -1,0 +1,17 @@
+<?php
+
+get_header(); ?>
+
+<div class="max-w-4xl mx-auto px-4">
+  
+  <?php if (have_posts()) {
+    while(have_posts()) {
+      the_post(); ?>
+      <!-- start your html here -->
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus itaque officiis at illo doloribus labore, corrupti, dignissimos, mollitia culpa libero vero accusantium magni cumque odio voluptatum! Laudantium, dolorum enim. Aperiam!</p>
+      <!-- end your html here -->
+    <?php }
+  } ?>
+</div>
+
+<?php get_footer();
